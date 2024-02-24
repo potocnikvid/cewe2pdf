@@ -87,6 +87,9 @@ from lxml import etree
 import PIL
 from clpFile import ClpFile  # for clipart .CLP and .SVG files
 from passepartout import Passepartout
+from pillow_heif import register_heif_opener
+
+register_heif_opener()
 
 if hasattr(sys, 'frozen'):
     # This is needed for compiled, i.e. frozen programs on Windows to find their dlls.
@@ -356,7 +359,7 @@ def processAreaImageTag(imageTag, area, areaHeight, areaRot, areaWidth, imagedir
     factor = sqrt(new_w * new_h / float(im.size[0] * im.size[1]))
     if factor <= 0.8:
         im = im.resize(
-            (new_w, new_h), PIL.Image.ANTIALIAS)
+            (new_w, new_h), PIL.Image.LANCZOS)
     im.load()
 
     # apply the frame mask from the passepartout to the image

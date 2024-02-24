@@ -1,4 +1,2 @@
-C:\Windows\Fonts\BOD_R.TTF
-${CEWE_FOLDER}\Resources\photofun\fonts\Function-Light.ttf
-/home/cweiske/.local/share/fonts/
-C:\Windows\Fonts\
+/Applications/CEWE Fotosvet.app/Contents/Resources/photofun/fonts/Function-Light.ttf
+~/Library/Fonts/BRADHI.ttf
