@@ -1,2 +1,2 @@
 /Applications/CEWE Fotosvet.app/Contents/Resources/photofun/fonts/Function-Light.ttf
-~/Library/Fonts/BRADHI.ttf
+/Applications/CEWE Fotosvet.app/Contents/Resources/photofun/fonts/BRADHI.ttf
